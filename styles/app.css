@@ -1,0 +1,319 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+#home:hover, #about:hover, #projects:hover, #resume:hover{
+    color: gold;
+}
+
+.active {
+    color:gold !important;
+    
+}
+
+
+.imgContainer{
+    display: inline-block;
+    width: 100%;
+
+   
+}
+
+.container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.projectimg{
+    
+    width: 100%;
+
+
+}
+
+body {
+    position: relative;
+
+}
+
+.first-bg{
+    background-image:url("../images/plants1.jpeg");
+    background-size: contain;
+    background-position:center;
+   
+}
+
+
+
+.firstcontainer {
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+.content{
+    margin: 0 20% 0 20%;
+    padding: 15% 0 0 0;
+}
+
+#mainimg{
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.break{
+    margin: 17% 0 2% 0;
+}
+
+
+embed {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.topnav::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    width: 90%;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: silver;
+    transition: all .35s;
+}
+.topnav:hover::after {
+    background:gold;
+}
+
+.icon a{
+    float: right;
+    width: 100%;
+}
+a {
+    text-align:center;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+footer {
+    margin-top: 200px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    background:url("../images/streets4.png");
+    background-size: auto 100%;
+    
+}
+@media (max-width: 1000px){
+    .first-break{
+        background-image:url("../images/red3.png");
+        background-position:center;
+        background-size: cover;
+       
+        height: 400px;
+     
+    
+    }
+    .second-break{
+        background-image:url("../images/green3.png");
+        background-position:center;
+        background-size: cover;
+       
+        height: 400px;
+    
+    }
+    .third-break{
+        background-image:url("../images/orange3.png");
+        background-position:center;
+        background-size: cover;
+       
+        height: 400px;
+    
+    }
+    embed {
+        height:700px;
+    }
+    
+
+}
+@media (min-width: 1000px){
+    .first-break{
+        background-image:url("../images/red3.png");
+        background-position:center;
+        background-size: cover;
+       
+        height: 800px;
+     
+    
+    }
+    .second-break{
+        background-image:url("../images/green3.png");
+        background-position:center;
+        background-size: cover;
+       
+        height: 800px;
+    
+    }
+    .third-break{
+        background-image:url("../images/orange3.png");
+        background-position:center;
+        background-size: cover;
+       
+        height: 800px;
+    
+    }
+    embed {
+        height:1000px;
+    }
+    
+}
+
+
+
+.flip-card {
+  background-color: transparent;
+  /* width: 300px;
+  height: 300px; */
+  width: 33.3%;
+
+  float:left;
+  padding:2%;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: white;
+}
+
+/* Style the back side */
+.flip-card-back {
+  color: black;
+  transform: rotateY(180deg);
+
+}
+
+
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+
+  .test{
+    overflow-wrap: break-word;
+  }
+
+  .blackfont{
+    color: black;
+}
+
+.Project1{
+  background-image: url("../images/color3.jpg");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  font-size: 1.1em;
+}
+
+.Project2{
+    background-image: url("../images/coffee.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+  }
+
+.Project3{
+    background-image: url("../images/musicbg.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+  }
+
+  .Project4{
+    background-image: url("../images/camp2.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+  }
+
+
+  .Project5{
+    background-image: url("../images/whaleP2.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+  }
+
+  .Project6{
+    background-image: url("../images/pokeB.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+  }
+
+
+  .Project7{
+    background-image: url("../images/shop2.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+  }
+
+  .Project8{
+    background-image: url("../images/reddit2.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+  }
+
+
+  .Project9{
+    background-image: url("../images/slack2.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+  }
