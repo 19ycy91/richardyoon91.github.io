@@ -41,7 +41,7 @@ body {
 
 }
 
-.first-bg{
+#mainimg{
     background-image:url("../images/plants1.jpg");
     background-size: contain;
     background-position:center;
@@ -51,8 +51,8 @@ body {
 
 
 .firstcontainer {
-    padding-top: 150px;
-    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .content{
