@@ -11,6 +11,9 @@ html {
     
 }
 
+.clickable{
+    font-size: 1.3em;
+}
 
 .imgContainer{
     display: inline-block;
@@ -113,7 +116,7 @@ footer {
     
 }
 @media (max-width: 1000px){
-    .first-break{
+    /* .first-break{
         background-image:url("../images/red3.jpg");
         background-position:center;
         background-size: cover;
@@ -121,7 +124,7 @@ footer {
         height: 400px;
      
     
-    }
+    } */
     .second-break{
         background-image:url("../images/green3.jpg");
         background-position:center;
@@ -131,7 +134,7 @@ footer {
     
     }
     .third-break{
-        background-image:url("../images/orange3.jpg");
+        background-image:url("../images/red3.jpg");
         background-position:center;
         background-size: cover;
        
@@ -145,7 +148,7 @@ footer {
 
 }
 @media (min-width: 1000px){
-    .first-break{
+    /* .first-break{
         background-image:url("../images/red3.jpg");
         background-position:center;
         background-size: cover;
@@ -153,7 +156,7 @@ footer {
         height: 800px;
      
     
-    }
+    } */
     .second-break{
         background-image:url("../images/green3.jpg");
         background-position:center;
@@ -163,7 +166,7 @@ footer {
     
     }
     .third-break{
-        background-image:url("../images/orange3.jpg");
+        background-image:url("../images/red3.jpg");
         background-position:center;
         background-size: cover;
        
@@ -217,11 +220,26 @@ footer {
   height: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+ 
 }
 
 /* Style the front side (fallback if image is missing) */
-.flip-card-front {
+.flip-card-inner .flip-card-front {
   color: white;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+
+  perspective: inherit;
+  -webkit-perspective: inherit;
+
+  position: absolute;
+  -webkit-position: absolute;
+
+  z-index: 1;
+  
 }
 
 /* Style the back side */
@@ -229,6 +247,8 @@ footer {
   color: black;
   transform: rotateY(180deg);
   -webkit-tranform: rotateY(180deg);
+  overflow: auto;
+  
 
 }
 
@@ -241,14 +261,13 @@ footer {
     position: absolute;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
+    font-size: 1.3em;
   }
 
 
-  .test{
-    overflow-wrap: break-word;
-  }
 
-  .blackfont{
+
+.blackfont{
     color: black;
 }
 

@@ -30,7 +30,7 @@ $(document).ready(function(){
 
     $(window).bind('scroll', update);
 
-    $(".bigT").bigtext();
+    // $(".bigT").bigtext();
 
 
 
