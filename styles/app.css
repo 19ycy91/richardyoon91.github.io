@@ -29,6 +29,12 @@ html {
 }
 
 
+.skillsimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
 .projectimg{
     
     width: 100%;
@@ -42,13 +48,15 @@ body {
 }
 
 #mainimg{
-    background-image:url("../images/plants1.jpg");
+    background-image:url("../images/plants11.jpg");
     background-size: contain;
     background-position:center;
    
 }
 
-
+li{
+    margin: 11px 0;
+  }
 
 .firstcontainer {
     padding-top: 50px;
@@ -126,7 +134,7 @@ footer {
     
     } */
     .second-break{
-        background-image:url("../images/green3.jpg");
+        background-image:url("../images/mit.jpg");
         background-position:center;
         background-size: cover;
        
@@ -134,7 +142,7 @@ footer {
     
     }
     .third-break{
-        background-image:url("../images/red3.jpg");
+        background-image:url("../images/houston555.jpg");
         background-position:center;
         background-size: cover;
        
@@ -158,19 +166,21 @@ footer {
     
     } */
     .second-break{
-        background-image:url("../images/green3.jpg");
+        background-image:url("../images/mit.jpg");
         background-position:center;
         background-size: cover;
+
+        
        
-        height: 800px;
+        height: 820px;
     
     }
     .third-break{
-        background-image:url("../images/red3.jpg");
+        background-image:url("../images/houston555.jpg");
         background-position:center;
         background-size: cover;
        
-        height: 800px;
+        height: 820px;
     
     }
     embed {
@@ -272,7 +282,7 @@ footer {
 }
 
 .Project1{
-  background-image: url("../images/color3.jpg");
+  background-image: url("../images/color33.jpg");
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -280,7 +290,7 @@ footer {
 }
 
 .Project2{
-    background-image: url("../images/coffee.jpg");
+    background-image: url("../images/coffee11.jpg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -288,7 +298,7 @@ footer {
   }
 
 .Project3{
-    background-image: url("../images/musicbg.jpg");
+    background-image: url("../images/musicbg11.jpg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -296,7 +306,7 @@ footer {
   }
 
   .Project4{
-    background-image: url("../images/camp2.jpg");
+    background-image: url("../images/camp22.jpg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -305,7 +315,7 @@ footer {
 
 
   .Project5{
-    background-image: url("../images/whaleP2.jpg");
+    background-image: url("../images/whaleP22.jpg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -313,7 +323,7 @@ footer {
   }
 
   .Project6{
-    background-image: url("../images/pokeB.jpg");
+    background-image: url("../images/pokeB11.jpg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -322,7 +332,7 @@ footer {
 
 
   .Project7{
-    background-image: url("../images/shop2.jpg");
+    background-image: url("../images/shop22.jpg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -330,7 +340,7 @@ footer {
   }
 
   .Project8{
-    background-image: url("../images/reddit2.jpg");
+    background-image: url("../images/reddit22.jpg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -339,7 +349,7 @@ footer {
 
 
   .Project9{
-    background-image: url("../images/slack2.jpg");
+    background-image: url("../images/slack22.jpg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
