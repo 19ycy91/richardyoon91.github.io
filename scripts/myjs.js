@@ -39,6 +39,7 @@ $(document).ready(function(){
 
     var w = $('.flip-card').width();
     $('.flip-card').css({'height':w+'px'});
+    $('.flip-card').css({'padding':'2%'});
     
 
     // var w2 = $('.projectimg').width();
