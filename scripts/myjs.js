@@ -45,8 +45,10 @@ $(document).ready(function(){
     $('.flip-card-inner').css({'height':x+'px'});
     
     // $('.flip-card-front').css({'height':y+'px'});
-    // $('.flip-card-back').css({'height':z+'px'});
-    $('.flip-card').css({'padding':'2%'});
+    // $('.flip-card-back').css({'height':y+'px'});
+    // $('.flip-card-inner').css({'padding':'2%'});
+    // $('.flip-card-front').css({'margin':'2%'});
+    // $('.flip-card-back').css({'margin':'2%'});
     
 
     // var w2 = $('.projectimg').width();
@@ -60,9 +62,10 @@ $(document).ready(function(){
         $('.flip-card').css({'height':w+'px'});
         $('.flip-card-inner').css({'height':x+'px'});
         // $('.flip-card-front').css({'height':y+'px'});
-        // $('.flip-card-back').css({'height':z+'px'});
-        $('.flip-card').css({'padding':'2%'});
-    
+        // $('.flip-card-back').css({'height':y+'px'});
+        // $('.flip-card-inner').css({'padding':'2%'});
+        // $('.flip-card-front').css({'margin':'2%'});
+        // $('.flip-card-back').css({'margin':'2%'});
         // var w2 = $('.projectimg').width();
         // $('.projectimg').css({'height':w2+'px'});
     
