@@ -38,8 +38,14 @@ $(document).ready(function(){
 
 
     var w = $('.flip-card').width();
+    var x = $('.flip-card-inner').width();
+    // var y = $('.flip-card-front').width();
+    // var z =$('flip-card-back').width();
     $('.flip-card').css({'height':w+'px'});
-    $('.flip-card').css({'padding':'2%'});
+    $('.flip-card-inner').css({'height':x+'px'});
+    // $('.flip-card-front').css({'height':y+'px'});
+    // $('.flip-card-back').css({'height':z+'px'});
+    // $('.flip-card').css({'padding':'2%'});
     
 
     // var w2 = $('.projectimg').width();
@@ -47,8 +53,14 @@ $(document).ready(function(){
 
     $(window).resize(function() {
         var w = $('.flip-card').width();
+        var x = $('.flip-card-inner').width();
+        // var y = $('.flip-card-front').width();
+        // var z =$('flip-card-back').width();
         $('.flip-card').css({'height':w+'px'});
-        $('.flip-card').css({'padding':'2%'});
+        $('.flip-card-inner').css({'height':x+'px'});
+        // $('.flip-card-front').css({'height':y+'px'});
+        // $('.flip-card-back').css({'height':z+'px'});
+        // $('.flip-card').css({'padding':'2%'});
     
         // var w2 = $('.projectimg').width();
         // $('.projectimg').css({'height':w2+'px'});
