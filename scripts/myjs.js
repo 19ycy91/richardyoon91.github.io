@@ -41,13 +41,13 @@ $(document).ready(function(){
     var x = $('.flip-card-inner').width();
     // var y = $('.flip-card-front').width();
     // var z =$('flip-card-back').width();
-    $('.flip-card').css({'height':w+'px'});
+    $('.flip-card').css({'height':w+8+'px'});
     $('.flip-card-inner').css({'height':x+'px'});
     
     
     // $('.flip-card-front').css({'height':y+'px'});
     // $('.flip-card-back').css({'height':y+'px'});
-    $('.flip-card').css({'padding':'2%'});
+    // $('.flip-card').css({'padding':'2%'});
     // $('.flip-card-front').css({'margin':'2%'});
     // $('.flip-card-back').css({'margin':'2%'});
     
@@ -60,9 +60,9 @@ $(document).ready(function(){
         var x = $('.flip-card-inner').width();
         // var y = $('.flip-card-front').width();
         // var z =$('flip-card-back').width();
-        $('.flip-card').css({'height':w+'px'});
+        $('.flip-card').css({'height':w+8+'px'});
         $('.flip-card-inner').css({'height':x+'px'});
-        $('.flip-card').css({'padding':'2%'});
+        // $('.flip-card').css({'padding':'2%'});
         // $('.flip-card-front').css({'height':y+'px'});
         // $('.flip-card-back').css({'height':y+'px'});
         // $('.flip-card-inner').css({'padding':'2%'});
