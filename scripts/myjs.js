@@ -48,6 +48,7 @@ $(document).ready(function(){
     $(window).resize(function() {
         var w = $('.flip-card').width();
         $('.flip-card').css({'height':w+'px'});
+        $('.flip-card').css({'padding':'2%'});
     
         // var w2 = $('.projectimg').width();
         // $('.projectimg').css({'height':w2+'px'});
